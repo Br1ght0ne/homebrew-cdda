@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
 cask "cataclysm" do
-  version "2024-05-28-1916"
+  version "2024-12-25-1535"
   sha256 :no_check
 
-  url "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/cdda-experimental-#{version}/cdda-osx-tiles-universal-#{version}.dmg"
+  url "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/cdda-experimental-#{version}/cdda-osx-with-graphics-universal-#{version}.dmg"
   name "Cataclysm"
   desc "A turn-based survival game set in a post-apocalyptic world"
   homepage "https://github.com/CleverRaven/Cataclysm-DDA"
